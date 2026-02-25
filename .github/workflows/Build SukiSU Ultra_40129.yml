@@ -30,6 +30,7 @@ on:
           - 'oneplus_13s_b'
           - 'oneplus_13t_b'
           - 'oneplus_ace5_pro_b'
+          - 'oneplus_ace5_pro'
           - 'oneplus_ace_6'
           - 'oneplus_pad_2_pro_b'
           - 'oneplus_pad_3_b'
@@ -167,7 +168,7 @@ jobs:
         run: |
           echo "🔧 正在配置Git用户信息..."
           git config --global user.name "build"
-          git config --global user.email "2210077278@qq.com"
+          git config --global user.email "1976689746@qq.com"
           echo "✅ Git配置完成"
 
       - name: "📦 Cache & Install Dependencies | 缓存 & 安装构建依赖"
